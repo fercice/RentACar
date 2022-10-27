@@ -6,7 +6,7 @@
 
 ### Instruções
 
-* Para consumir os Endpoints de Usuario é necessário o Token de autenticação, para gerar o Token, consumir o Endpoint "/api/v1/autenticar/gerar-token" do controller Autenticar
+* Para consumir os Endpoints é necessário o Token de autenticação, para gerar o Token, consumir o Endpoint "/api/v1/autenticar/gerar-token" do controller Autenticar
 
 ### Arquitetura
 
