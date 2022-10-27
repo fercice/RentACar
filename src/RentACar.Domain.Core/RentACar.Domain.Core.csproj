@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="Entities\Entity.cs~RF146c7356.TMP" />
+	  <None Remove="Entities\Entity.cs~RF29af1b39.TMP" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Entities\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="FluentValidation" Version="11.2.2" />
+	</ItemGroup>
+</Project>

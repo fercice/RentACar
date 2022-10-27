@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="NativeInjectorBootStrapper.cs~RF16be5b12.TMP" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+	  <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\RentACar.Application\RentACar.Application.csproj" />
+		<ProjectReference Include="..\RentACar.Domain\RentACar.Domain.csproj" />
+		<ProjectReference Include="..\RentACar.Infra.Data\RentACar.Infra.Data.csproj" />
+	</ItemGroup>
+
+</Project>

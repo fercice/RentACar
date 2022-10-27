@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="ViewModels\Veiculo\VeiculoInsertViewModel.cs~RF2c74bf9e.TMP" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\RentACar.Domain\RentACar.Domain.csproj" />
+		<ProjectReference Include="..\RentACar.Infra.Data\RentACar.Infra.Data.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="11.0.1" />
+	</ItemGroup>
+</Project>

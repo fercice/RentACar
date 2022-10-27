@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="Services\Base\Service.cs~RF2a6bbc0a.TMP" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\RentACar.Domain.Core\RentACar.Domain.Core.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="System.ComponentModel" Version="4.3.0" />
+		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+		<PackageReference Include="System.Security.Claims" Version="4.3.0" />
+	</ItemGroup>
+</Project>
